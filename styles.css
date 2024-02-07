@@ -1,0 +1,79 @@
+:root {
+  --dark: #2a3c24;
+  --dark2: #7b2d26;
+  --medium: #ada296;
+  --peach: #e2856e;
+  --light: #d7c9aa;
+}
+
+body {
+  background-color: var(--light);
+  color: var(--dark);
+  text-align: center;
+}
+
+div {
+  width: 50px;
+  height: 30px;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.great-vibes {
+  font-family: "Great Vibes";
+}
+
+.sacramento {
+  font-family: "Sacramento";
+}
+
+.handlee {
+  font-family: "Handlee";
+}
+
+.parisienne {
+  font-family: "Parisienne";
+}
+
+.sofia {
+  font-family: "Sofia";
+}
+
+.rancho {
+  font-family: "Rancho";
+}
+
+.petit-formal-script {
+  font-family: "Petit Formal Script";
+}
+
+.rochester {
+  font-family: "Rochester";
+}
+
+.clicker-script {
+  font-family: "Clicker Script";
+}
+
+.lovers-quarrel {
+  font-family: "Lovers Quarrel";
+}
+
+#color1 {
+  background-color: var(--dark);
+}
+#color2 {
+  background-color: var(--dark2);
+}
+#color3 {
+  background-color: var(--medium);
+}
+#color4 {
+  background-color: var(--peach);
+}
+#color5 {
+  background-color: var(--light);
+}
