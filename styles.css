@@ -22,6 +22,9 @@ h1 {
   font-size: 8em;
 }
 
+img {
+  width: 100%;
+}
 .sacramento {
   font-family: "Sacramento";
 }
@@ -38,18 +41,17 @@ h1 {
   top: 50%;
 }
 
-#color1 {
-  background-color: var(--dark);
+.card {
+  border: 1px solid black;
+  box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  height: 100%;
 }
-#color2 {
-  background-color: var(--dark2);
-}
-#color3 {
-  background-color: var(--medium);
-}
-#color4 {
-  background-color: var(--peach);
-}
-#color5 {
-  background-color: var(--light);
+
+.price {
+  color: var(--dark2);
 }
