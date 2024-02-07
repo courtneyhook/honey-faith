@@ -25,6 +25,11 @@ h1 {
 img {
   width: 100%;
 }
+
+.icon {
+  font-size: 32px;
+}
+
 .sacramento {
   font-family: "Sacramento";
 }
@@ -44,10 +49,10 @@ img {
 .card {
   border: 1px solid black;
   box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
   max-width: 300px;
   margin: 20px;
   text-align: center;
-  width: 100%;
   font-size: 18px;
   height: 100%;
 }
