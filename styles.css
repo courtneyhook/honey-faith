@@ -3,7 +3,7 @@
   --dark2: #7b2d26;
   --medium: #ada296;
   --peach: #e2856e;
-  --light: #d7c9aa;
+  --light: #fefcfb;
 }
 
 body {
@@ -19,11 +19,23 @@ div {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 8em;
 }
 
 .sacramento {
   font-family: "Sacramento";
+}
+
+.hero-image {
+  background-image: url("assets/background-honeycomb.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: repeat-x;
+}
+
+.hero-text {
+  padding: 100px;
+  top: 50%;
 }
 
 #color1 {
